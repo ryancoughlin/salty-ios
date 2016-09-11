@@ -19,6 +19,9 @@
 		5D7B01C01D612AFB00EB661A /* DecodeCurrently.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7B01BF1D612AFB00EB661A /* DecodeCurrently.swift */; };
 		5D7B01C21D612B3A00EB661A /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7B01C11D612B3A00EB661A /* CurrentWeather.swift */; };
 		5DC679E21D85BD4000148E94 /* Kennebunkport.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5DC679E11D85BD4000148E94 /* Kennebunkport.gpx */; };
+		5DC679E41D85C4DE00148E94 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5DC679E31D85C4DE00148E94 /* GoogleService-Info.plist */; };
+		5DC679E71D85C4ED00148E94 /* StationLookup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC679E51D85C4ED00148E94 /* StationLookup.swift */; };
+		5DC679E81D85C4ED00148E94 /* Kennebunkport.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5DC679E61D85C4ED00148E94 /* Kennebunkport.gpx */; };
 		EA97DF9A3BC739D4D93A83E3 /* Pods_Salty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B970C9672CA54DF6FEF42276 /* Pods_Salty.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +41,9 @@
 		5D7B01BF1D612AFB00EB661A /* DecodeCurrently.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecodeCurrently.swift; sourceTree = "<group>"; };
 		5D7B01C11D612B3A00EB661A /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 		5DC679E11D85BD4000148E94 /* Kennebunkport.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Kennebunkport.gpx; sourceTree = "<group>"; };
+		5DC679E31D85C4DE00148E94 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5DC679E51D85C4ED00148E94 /* StationLookup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationLookup.swift; sourceTree = "<group>"; };
+		5DC679E61D85C4ED00148E94 /* Kennebunkport.gpx */ = {isa = PBXFileReference; lastKnownFileType = file; name = Kennebunkport.gpx; path = ../../../Downloads/Kennebunkport.gpx; sourceTree = SOURCE_ROOT; };
 		B51B74FA075000657BF7D93B /* Pods-Salty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Salty.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Salty/Pods-Salty.debug.xcconfig"; sourceTree = "<group>"; };
 		B970C9672CA54DF6FEF42276 /* Pods_Salty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Salty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -75,6 +81,9 @@
 		5D5E702A1D6115C600824F4D /* Salty */ = {
 			isa = PBXGroup;
 			children = (
+				5DC679E31D85C4DE00148E94 /* GoogleService-Info.plist */,
+				5DC679E51D85C4ED00148E94 /* StationLookup.swift */,
+				5DC679E61D85C4ED00148E94 /* Kennebunkport.gpx */,
 				5D5E702B1D6115C600824F4D /* AppDelegate.swift */,
 				5D5E70321D6115C600824F4D /* Assets.xcassets */,
 				5D7B01BD1D6128E700EB661A /* DecodeWind.swift */,
@@ -172,7 +181,9 @@
 			files = (
 				5DC679E21D85BD4000148E94 /* Kennebunkport.gpx in Resources */,
 				5D5E70361D6115C600824F4D /* LaunchScreen.storyboard in Resources */,
+				5DC679E41D85C4DE00148E94 /* GoogleService-Info.plist in Resources */,
 				5D5E70331D6115C600824F4D /* Assets.xcassets in Resources */,
+				5DC679E81D85C4ED00148E94 /* Kennebunkport.gpx in Resources */,
 				5D5E70311D6115C600824F4D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,6 +245,7 @@
 			files = (
 				5D5E702E1D6115C600824F4D /* ViewController.swift in Sources */,
 				5D7B01BE1D6128E700EB661A /* DecodeWind.swift in Sources */,
+				5DC679E71D85C4ED00148E94 /* StationLookup.swift in Sources */,
 				5D7B01C21D612B3A00EB661A /* CurrentWeather.swift in Sources */,
 				5D7B01BC1D61279000EB661A /* Wind.swift in Sources */,
 				5D7B01B61D61187300EB661A /* RequestLocation.swift in Sources */,

@@ -10,5 +10,6 @@ target 'Salty' do
   pod 'Argo'
   pod 'Runes'
   pod 'Curry'
+  pod 'GeoFire'
 
 end
