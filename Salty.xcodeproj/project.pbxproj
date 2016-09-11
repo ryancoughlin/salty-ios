@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D5E702C1D6115C600824F4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5E702B1D6115C600824F4D /* AppDelegate.swift */; };
+		5D5E702E1D6115C600824F4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5E702D1D6115C600824F4D /* ViewController.swift */; };
+		5D5E70311D6115C600824F4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5E702F1D6115C600824F4D /* Main.storyboard */; };
+		5D5E70331D6115C600824F4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D5E70321D6115C600824F4D /* Assets.xcassets */; };
+		5D5E70361D6115C600824F4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5E70341D6115C600824F4D /* LaunchScreen.storyboard */; };
+		5D7B01B61D61187300EB661A /* RequestLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7B01B51D61187300EB661A /* RequestLocation.swift */; };
+		5D7B01BA1D6120D500EB661A /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7B01B91D6120D500EB661A /* NetworkRequest.swift */; };
+		5D7B01BC1D61279000EB661A /* Wind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7B01BB1D61279000EB661A /* Wind.swift */; };
+		5D7B01BE1D6128E700EB661A /* DecodeWind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7B01BD1D6128E700EB661A /* DecodeWind.swift */; };
+		5D7B01C01D612AFB00EB661A /* DecodeCurrently.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7B01BF1D612AFB00EB661A /* DecodeCurrently.swift */; };
+		5D7B01C21D612B3A00EB661A /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7B01C11D612B3A00EB661A /* CurrentWeather.swift */; };
+		5DC679E21D85BD4000148E94 /* Kennebunkport.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5DC679E11D85BD4000148E94 /* Kennebunkport.gpx */; };
+		EA97DF9A3BC739D4D93A83E3 /* Pods_Salty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B970C9672CA54DF6FEF42276 /* Pods_Salty.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4EEF826581B8A8539C0CB2E4 /* Pods-Salty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Salty.release.xcconfig"; path = "Pods/Target Support Files/Pods-Salty/Pods-Salty.release.xcconfig"; sourceTree = "<group>"; };
+		5D5E70281D6115C600824F4D /* Salty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Salty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D5E702B1D6115C600824F4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D5E702D1D6115C600824F4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D5E70301D6115C600824F4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D5E70321D6115C600824F4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D5E70351D6115C600824F4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D5E70371D6115C600824F4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D7B01B51D61187300EB661A /* RequestLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestLocation.swift; sourceTree = "<group>"; };
+		5D7B01B91D6120D500EB661A /* NetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		5D7B01BB1D61279000EB661A /* Wind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wind.swift; sourceTree = "<group>"; };
+		5D7B01BD1D6128E700EB661A /* DecodeWind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecodeWind.swift; sourceTree = "<group>"; };
+		5D7B01BF1D612AFB00EB661A /* DecodeCurrently.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecodeCurrently.swift; sourceTree = "<group>"; };
+		5D7B01C11D612B3A00EB661A /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		5DC679E11D85BD4000148E94 /* Kennebunkport.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Kennebunkport.gpx; sourceTree = "<group>"; };
+		B51B74FA075000657BF7D93B /* Pods-Salty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Salty.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Salty/Pods-Salty.debug.xcconfig"; sourceTree = "<group>"; };
+		B970C9672CA54DF6FEF42276 /* Pods_Salty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Salty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D5E70251D6115C500824F4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA97DF9A3BC739D4D93A83E3 /* Pods_Salty.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D5E701F1D6115C500824F4D = {
+			isa = PBXGroup;
+			children = (
+				5D5E702A1D6115C600824F4D /* Salty */,
+				5D5E70291D6115C600824F4D /* Products */,
+				BBDCE32292B25AE9E077FA72 /* Pods */,
+				BDC9033DBD7557F45CBE2011 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5D5E70291D6115C600824F4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D5E70281D6115C600824F4D /* Salty.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D5E702A1D6115C600824F4D /* Salty */ = {
+			isa = PBXGroup;
+			children = (
+				5D5E702B1D6115C600824F4D /* AppDelegate.swift */,
+				5D5E70321D6115C600824F4D /* Assets.xcassets */,
+				5D7B01BD1D6128E700EB661A /* DecodeWind.swift */,
+				5DC679E11D85BD4000148E94 /* Kennebunkport.gpx */,
+				5D5E70371D6115C600824F4D /* Info.plist */,
+				5D5E70341D6115C600824F4D /* LaunchScreen.storyboard */,
+				5D5E702F1D6115C600824F4D /* Main.storyboard */,
+				5D7B01B91D6120D500EB661A /* NetworkRequest.swift */,
+				5D7B01B51D61187300EB661A /* RequestLocation.swift */,
+				5D5E702D1D6115C600824F4D /* ViewController.swift */,
+				5D7B01BF1D612AFB00EB661A /* DecodeCurrently.swift */,
+				5D7B01C11D612B3A00EB661A /* CurrentWeather.swift */,
+				5D7B01BB1D61279000EB661A /* Wind.swift */,
+			);
+			path = Salty;
+			sourceTree = "<group>";
+		};
+		BBDCE32292B25AE9E077FA72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B51B74FA075000657BF7D93B /* Pods-Salty.debug.xcconfig */,
+				4EEF826581B8A8539C0CB2E4 /* Pods-Salty.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BDC9033DBD7557F45CBE2011 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B970C9672CA54DF6FEF42276 /* Pods_Salty.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D5E70271D6115C500824F4D /* Salty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D5E703A1D6115C600824F4D /* Build configuration list for PBXNativeTarget "Salty" */;
+			buildPhases = (
+				658C49A13D78E3F511135A7A /* [CP] Check Pods Manifest.lock */,
+				5D5E70241D6115C500824F4D /* Sources */,
+				5D5E70251D6115C500824F4D /* Frameworks */,
+				5D5E70261D6115C500824F4D /* Resources */,
+				B955CE74D1F9B2E8B32766C5 /* [CP] Embed Pods Frameworks */,
+				D3A7651237FC3AA5EF3E4629 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Salty;
+			productName = Salty;
+			productReference = 5D5E70281D6115C600824F4D /* Salty.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D5E70201D6115C500824F4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ryan Coughlin";
+				TargetAttributes = {
+					5D5E70271D6115C500824F4D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 5D5E70231D6115C500824F4D /* Build configuration list for PBXProject "Salty" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D5E701F1D6115C500824F4D;
+			productRefGroup = 5D5E70291D6115C600824F4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D5E70271D6115C500824F4D /* Salty */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D5E70261D6115C500824F4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DC679E21D85BD4000148E94 /* Kennebunkport.gpx in Resources */,
+				5D5E70361D6115C600824F4D /* LaunchScreen.storyboard in Resources */,
+				5D5E70331D6115C600824F4D /* Assets.xcassets in Resources */,
+				5D5E70311D6115C600824F4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		658C49A13D78E3F511135A7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B955CE74D1F9B2E8B32766C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Salty/Pods-Salty-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3A7651237FC3AA5EF3E4629 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Salty/Pods-Salty-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D5E70241D6115C500824F4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5E702E1D6115C600824F4D /* ViewController.swift in Sources */,
+				5D7B01BE1D6128E700EB661A /* DecodeWind.swift in Sources */,
+				5D7B01C21D612B3A00EB661A /* CurrentWeather.swift in Sources */,
+				5D7B01BC1D61279000EB661A /* Wind.swift in Sources */,
+				5D7B01B61D61187300EB661A /* RequestLocation.swift in Sources */,
+				5D7B01BA1D6120D500EB661A /* NetworkRequest.swift in Sources */,
+				5D5E702C1D6115C600824F4D /* AppDelegate.swift in Sources */,
+				5D7B01C01D612AFB00EB661A /* DecodeCurrently.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D5E702F1D6115C600824F4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D5E70301D6115C600824F4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D5E70341D6115C600824F4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D5E70351D6115C600824F4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D5E70381D6115C600824F4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D5E70391D6115C600824F4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D5E703B1D6115C600824F4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B51B74FA075000657BF7D93B /* Pods-Salty.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Salty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.catonthecouch.Salty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D5E703C1D6115C600824F4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EEF826581B8A8539C0CB2E4 /* Pods-Salty.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Salty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.catonthecouch.Salty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D5E70231D6115C500824F4D /* Build configuration list for PBXProject "Salty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5E70381D6115C600824F4D /* Debug */,
+				5D5E70391D6115C600824F4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D5E703A1D6115C600824F4D /* Build configuration list for PBXNativeTarget "Salty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5E703B1D6115C600824F4D /* Debug */,
+				5D5E703C1D6115C600824F4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D5E70201D6115C500824F4D /* Project object */;
+}

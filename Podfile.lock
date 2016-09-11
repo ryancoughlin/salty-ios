@@ -1,0 +1,46 @@
+PODS:
+  - Alamofire (3.4.1)
+  - Argo (3.0.1)
+  - Curry (2.3.1)
+  - OMGHTTPURLRQ (3.1.2):
+    - OMGHTTPURLRQ/RQ (= 3.1.2)
+  - OMGHTTPURLRQ/FormURLEncode (3.1.2)
+  - OMGHTTPURLRQ/RQ (3.1.2):
+    - OMGHTTPURLRQ/FormURLEncode
+    - OMGHTTPURLRQ/UserAgent
+  - OMGHTTPURLRQ/UserAgent (3.1.2)
+  - PromiseKit (3.2.0):
+    - PromiseKit/Foundation (= 3.2.0)
+    - PromiseKit/QuartzCore (= 3.2.0)
+    - PromiseKit/UIKit (= 3.2.0)
+  - PromiseKit/CorePromise (3.2.0)
+  - PromiseKit/Foundation (3.2.0):
+    - OMGHTTPURLRQ (~> 3.1.0)
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (3.2.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (3.2.0):
+    - PromiseKit/CorePromise
+  - Runes (3.2.0)
+  - SwiftLocation (0.9.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Argo
+  - Curry
+  - PromiseKit
+  - Runes
+  - SwiftLocation
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  Argo: 22c5d62b7967020a641468c91dc9488bea9523b8
+  Curry: c8f65c8ade091aad5cb86f7b51dd408d698810ca
+  OMGHTTPURLRQ: 38316b56d88125c600bcdb16df8329147da2b0ee
+  PromiseKit: 1db024241265f428137a9f3c00ff9590740c4be6
+  Runes: ab2f892272d5165f64620f8086578b28cde98a02
+  SwiftLocation: f18e71300a89f2a81001c9615b7694150e6b84de
+
+PODFILE CHECKSUM: b13647e66417fef67c5734f8bb1d7aba90f6c8b3
+
+COCOAPODS: 1.0.1
